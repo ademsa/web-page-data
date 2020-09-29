@@ -7,7 +7,7 @@ export default function Header(props) {
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column is-offset-2 is-8">
-                            <img src="/logo.svg" alt="Logo" width="200" height="200" />
+                            <img src="/web-page-data/logo.svg" alt="Logo" width="200" height="200" />
                             <p className="title is-size-3-mobile is-size-1-tablet has-text-white">Web Page as a Data Source</p>
                             <p className="subtitle is-4 has-text-white">Analyze and extract data from HTML page source</p>
                             <div className="field">

@@ -123,10 +123,12 @@ export default class App extends React.Component {
         element.className = element.className + " is-hidden";
       }
     });
-    let panelId = event.currentTarget.href.replace(window.location.origin, "").replace("#", "").replace("/", "");
+    let panelId = event.currentTarget.href.replace(window.location.href, "").replace("#", "").replace("/", "");
     let panelElement = document.getElementById(panelId);
-    panelElement.className = panelElement.className.replace(" is-hidden", "");
-    panelElement.scrollIntoView({ "behavior": "smooth", "block": "start" });
+    if (panelElement !== undefined && panelElement !== null) {
+      panelElement.className = panelElement.className.replace(" is-hidden", "");
+      panelElement.scrollIntoView({ "behavior": "smooth", "block": "start" });
+    }
   }
 
   handleExportToJSONClick(event) {
