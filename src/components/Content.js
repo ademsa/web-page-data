@@ -8,10 +8,10 @@ import ContentPanelList from './ContentPanelList';
 export default function Content(props) {
     return (
         <React.Fragment>
-            <section className="section content-ui" id="content">
+            <section className="section content-ui py-0" id="content">
                 <div className="container">
                     {props.content &&
-                        <div className="columns is-centered is-mobile is-multiline">
+                        <div className="columns is-centered is-mobile is-multiline mt-5">
                             <div className="column is-4-mobile is-3-tablet">
                                 <Menu handleMenuItemClick={props.handleMenuItemClick} />
                             </div>
