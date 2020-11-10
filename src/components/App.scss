@@ -21,6 +21,7 @@ $footer-background-color: #ffffff;
 @import "./../../node_modules/bulma/sass/elements/box.sass";
 @import "./../../node_modules/bulma/sass/elements/button.sass";
 @import "./../../node_modules/bulma/sass/elements/container.sass";
+@import "./../../node_modules/bulma/sass/elements/content.sass";
 @import "./../../node_modules/bulma/sass/elements/title.sass";
 @import "./../../node_modules/bulma/sass/form/shared.sass";
 @import "./../../node_modules/bulma/sass/form/tools.sass";
@@ -54,4 +55,8 @@ $footer-background-color: #ffffff;
 
 .content-ui .content-panel .title{
     color: $main-dark;
+}
+
+.footer .author {
+    height: 25px;
 }
