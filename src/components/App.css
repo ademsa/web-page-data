@@ -4711,7 +4711,9 @@ a.box:active {
 
 .action-ui {
   background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
-  color: white; }
+  color: white;
+  display: flex;
+  align-items: center; }
 
 @media screen and (min-width: 1024px) {
   .action-ui {
