@@ -1,7 +1,7 @@
 {
   "name": "web-page-data",
   "homepage": "https://ademsa.github.io/web-page-data",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
