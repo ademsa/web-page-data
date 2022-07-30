@@ -1,13 +1,10 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
 // Override variables
 $main: #5753c9;
 $main-dark: #1a237e;
-$primary:#00c49a;
-$info:$main;
-$family-sans-serif: "Open Sans", sans-serif;
+$primary: #00c49a;
+$info: $main;
 $link: $main;
 $menu-item-color: $main;
 $footer-background-color: #ffffff;
@@ -30,35 +27,36 @@ $footer-background-color: #ffffff;
 @import "./../../node_modules/bulma/sass/layout/_all.sass";
 
 // Custom
-.action-ui{
-    background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
-    color: $white;
-    display: flex;
-    align-items: center;
+.action-ui {
+  background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
+  color: $white;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
-    .action-ui{
-        min-height: 100vh;
-    }
+  .action-ui {
+    min-height: 100vh;
+  }
 }
 
-.action-ui .is-1{
-    font-size: 4rem;
+.action-ui .is-1 {
+  font-size: 4rem;
 }
 
 .action-ui textarea {
-    border-radius:20px;
-    opacity: 0.5;
-    color:$main-dark;
-    border: none;
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  border-radius: 20px;
+  opacity: 0.5;
+  color: $main-dark;
+  border: none;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
-.content-ui .content-panel .title{
-    color: $main-dark;
+.content-ui .content-panel .title {
+  color: $main-dark;
 }
 
 .footer .author {
-    height: 25px;
+  height: 25px;
 }
