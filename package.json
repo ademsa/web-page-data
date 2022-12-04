@@ -1,12 +1,12 @@
 {
   "name": "web-page-data",
   "homepage": "https://ademsa.github.io/web-page-data",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.3.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "bulma": "^0.9.4",
-    "concurrently": "^7.3.0",
-    "node-sass": "^7.0.1"
+    "concurrently": "^7.6.0",
+    "node-sass": "^8.0.0"
   }
 }
