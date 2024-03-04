@@ -1,23 +1,20 @@
 {
   "name": "web-page-data",
   "homepage": "https://ademsa.github.io/web-page-data",
-  "version": "0.3.3",
+  "version": "0.4.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-transform-private-property-in-object": "^7.21.0"
   },
   "scripts": {
     "css-build": "node-sass --omit-source-map-url src/components/App.scss src/components/App.css",
     "css-watch": "node-sass --omit-source-map-url src/components/App.scss src/components/App.css --watch",
     "start": "concurrently \"npm:css-watch\" \"react-scripts start\"",
-    "build": "npm run css-build && BUILD_PATH='./docs' react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "npm run css-build && BUILD_PATH='./docs' react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,7 +33,7 @@
   },
   "devDependencies": {
     "bulma": "^0.9.4",
-    "concurrently": "^7.6.0",
-    "node-sass": "^8.0.0"
+    "concurrently": "^8.2.2",
+    "node-sass": "^9.0.0"
   }
 }

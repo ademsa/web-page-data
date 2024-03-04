@@ -23,12 +23,6 @@ export default function Footer() {
               alt="Author"
             />
           </a>
-          <p className="has-text-weight-light mt-2 mb-0 is-size-7">
-            Explore other projects on
-          </p>
-          <a href="https://niceweb.app" className="mx-2 has-text-weight-normal">
-            NiceWeb.app
-          </a>
         </div>
       </footer>
     </React.Fragment>
